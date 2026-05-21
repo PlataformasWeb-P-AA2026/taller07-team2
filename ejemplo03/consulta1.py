@@ -15,7 +15,6 @@ for e in entregas:
     titulo_tarea = e.tarea.titulo 
     nombre_profesor = e.tarea.curso.instructor.nombre
     
-    # Formato natural: Estudiante mandó 'Tarea' (Profesor: Nombre)
     print(f"• {nombre_estudiante} entregó '{titulo_tarea}' — [Profesor/a: {nombre_profesor}]")
 
 session.close()
